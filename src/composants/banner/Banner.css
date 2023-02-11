@@ -1,0 +1,28 @@
+.Banner {
+  position: relative;
+  width: 1240px;
+  height: 223px;
+  margin: 0 auto;
+  /* border: 1px solid violet; */
+  margin-top: 55px;
+  opacity: 1;
+
+  mix-blend-mode: darken;
+
+  background: #18161600;
+  color: black;
+  border-radius: 25px;
+  background-image: url(../../images/kalen.webp);
+}
+.Banner .titre {
+  position: absolute;
+  left: 375px;
+  bottom: 90px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 142.6%;
+
+  color: #fff;
+}

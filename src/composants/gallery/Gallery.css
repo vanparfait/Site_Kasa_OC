@@ -1,0 +1,15 @@
+.Gallery {
+  position: relative;
+  width: 1210px;
+  /*height: 829px; */
+  /* border: 1px solid green; */
+  margin: 0 auto;
+  margin-top: 35px;
+  background: #f7f7f7;
+
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}

@@ -1,0 +1,37 @@
+.Error {
+  height: 1024px;
+  background: #ffffff;
+}
+.Error h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 142.6%;
+  text-align: center;
+  color: #ff6060;
+  margin: 1px 0;
+}
+.Error p {
+  font-family: "Montserrat";
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  color: #ff6060;
+  margin-top: 1px;
+}
+.Error .retour {
+  display: block;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  text-decoration-line: underline;
+  color: #ff6060;
+  margin-top: 120px;
+  margin-bottom: 0px;
+}
