@@ -1,13 +1,14 @@
 import React from "react";
 import "./Card.css";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+//import Slider from "../carousel/Carousel";
 
-const Card = ({ title, cover }) => {
+const Card = ({ id, title, cover }) => {
   return (
-    <div className="Card">
+    <Link to={`/logement/ ${id}`} className="Card">
       <img src={cover} alt={title} />
       <h1> {title} </h1>
-    </div>
+    </Link>
   );
 };
 

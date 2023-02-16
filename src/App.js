@@ -5,6 +5,7 @@ import Footer from "./composants/footer/Footer";
 import Error from "./composants/error/Error";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
+import Logement from "./pages/logement/Logement";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           </Route>
           <Route path="/a-propos">
             <About />
+          </Route>
+          <Route path="/logement/:id">
+            <Logement />
           </Route>
           <Route>
             <Error />

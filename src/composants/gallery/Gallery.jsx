@@ -13,7 +13,12 @@ const Gallery = () => {
   return (
     <div className="Gallery">
       {datas.map((data) => (
-        <Card title={data.title} key={data.id} cover={data.cover} />
+        <Card
+          title={data.title}
+          key={data.id}
+          cover={data.cover}
+          id={data.id}
+        />
       ))}
     </div>
   );
