@@ -9,7 +9,7 @@ const Gallery = () => {
       .then((res) => res.json())
       .then((data1) => setDatas(data1));
   }, []);
-  console.log(datas);
+  //console.log(datas);
   return (
     <div className="Gallery">
       {datas.map((data) => (
