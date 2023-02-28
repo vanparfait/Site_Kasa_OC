@@ -28,13 +28,13 @@ const Slider = ({ imageSlider }) => {
         <div>
           <img
             className="carousel_arrow carousel_arrow_right"
-            src={chevron_carousel_left}
+            src={chevron_carousel_right}
             alt="show next slider"
             onClick={nextSlide}
           />
           <img
             className="carousel_arrow carousel_arrow_left"
-            src={chevron_carousel_right}
+            src={chevron_carousel_left}
             alt="show previous slider"
             onClick={previousSlide}
           />

@@ -1,4 +1,6 @@
 .logement {
+  width: 95%;
+  margin: 0 auto;
 }
 
 .logement_content {
@@ -16,6 +18,11 @@
   gap: 10px;
   font-weight: 500;
   font-size: 14px;
+}
+.logement_content_host {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .logement_content_infos button {
   display: inline;
@@ -69,4 +76,22 @@
 .logement_content_host_name_stars img {
   width: 30px;
   height: 30px;
+}
+.accomodation_collapse {
+  display: flex;
+
+  /* background-color: yellow; */
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+}
+.accomodation_collapse_item1 {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin-right: 3px;
+}
+.accomodation_collapse_item2 {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin-left: 10px;
 }

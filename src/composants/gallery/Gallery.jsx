@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import Card from "../card/Card";
 import "./Gallery.css";
+import datas from "../data/data";
 
 const Gallery = () => {
-  const [datas, setDatas] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:8000/logements")
-      .then((res) => res.json())
-      .then((data1) => setDatas(data1));
-  }, []);
+  // const [datas, setDatas] = useState([]);
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/logements")
+  //     .then((res) => res.json())
+  //     .then((data1) => setDatas(data1));
+  // }, []);
   //console.log(datas);
   return (
     <div className="Gallery">
