@@ -12,7 +12,7 @@
   background: #18161600;
   color: black;
   border-radius: 25px;
-  background-image: url(../../images/kalen.webp);
+  /* background-image: url(../../images/kalen.webp); */
 }
 .Banner .titre {
   position: absolute;
@@ -25,4 +25,9 @@
   line-height: 142.6%;
 
   color: #fff;
+}
+.Banner img {
+  border-radius: 25px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-color: red;
 }
